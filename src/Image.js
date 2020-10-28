@@ -12,8 +12,8 @@ const Image = (props) => {
 }
 
 const StyledImage = styled(Image)`
-    .img {
-        max-height: 100px;
+    &.img {
+        max-height: 40%;
         broder-radius: 10px;
     }
 `
